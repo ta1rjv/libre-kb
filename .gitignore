@@ -3,9 +3,6 @@
 *.rej
 build/
 output/
-LibreSDR/
-libresdr/
-tezuka_fw/
 *.zip
 *.tar.gz
 *.bit
