@@ -163,3 +163,20 @@ libres-kb/
 3. Create performance benchmarks
 4. Document firmware update procedures
 5. Compare with tezuka_fw implementation
+
+## GitHub Commit Automation
+
+### BEFORE any commit to GitHub:
+1. Run documentation-sync skill to verify README.md reflects actual directory structure.
+2. Verify no new files are missing from README.md repository structure section.
+3. Verify all docs/ files mentioned in README.md actually exist.
+
+### Author rules for GitHub commits:
+- **Always** use author: `ta1rjv <amateurta1rjv@gmail.com>`
+- Never commit as root or any other author.
+- For sub-agent commits, use author: `claude <claude@anthropic.com>` only when explicitly doing Claude-code-only work.
+
+### Commit message rules:
+- Commit messages must be descriptive: `type(scope): description`
+- Never push empty, "wip", or single-word commits.
+- Always push to `main` branch only after README verification.
