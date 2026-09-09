@@ -172,9 +172,10 @@ libres-kb/
 3. Verify all docs/ files mentioned in README.md actually exist.
 
 ### Author rules for GitHub commits:
-- **Always** use author: `ta1rjv <amateurta1rjv@gmail.com>`
+- **Always** use author: `ta1rjv <amateurta1rjv@gmail.com>` (user) or `claude <claude@anthropic.com>` (Claude code)
 - Never commit as root or any other author.
 - For sub-agent commits, use author: `claude <claude@anthropic.com>` only when explicitly doing Claude-code-only work.
+- Before committing, verify the author name matches one of the two allowed values above.
 
 ### Commit message rules:
 - Commit messages must be descriptive: `type(scope): description`
